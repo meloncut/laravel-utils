@@ -1,0 +1,35 @@
+{
+    "name": "meloncut/laravel-utils",
+    "description": "develop tools for laravel framework",
+    "type": "library",
+    "require-dev": {
+        "fakerphp/faker": "^1.22",
+        "phpunit/phpunit": "^9.6",
+        "laravel/framework": ">= 5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Meloncut\\LaravelUtils\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "classmap": [
+            "database/factories"
+        ],
+        "psr-4": {
+            "Tests\\": "tests",
+            "App\\": "app"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "authors": [
+        {
+            "name": "meloncut",
+            "email": "meloncut@outlook.com"
+        }
+    ]
+}

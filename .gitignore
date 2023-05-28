@@ -1,0 +1,9 @@
+/vendor
+/bootstrap
+/app
+/config
+/database
+.env
+composer.lock
+phpunit.xml
+.phpunit.result.cache
