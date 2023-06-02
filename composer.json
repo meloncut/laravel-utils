@@ -3,8 +3,6 @@
     "description": "develop tools for laravel framework",
     "type": "library",
     "require-dev": {
-        "fakerphp/faker": "^1.22",
-        "phpunit/phpunit": "^9.6",
         "laravel/framework": ">= 5"
     },
     "autoload": {

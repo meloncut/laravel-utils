@@ -20,7 +20,7 @@ trait MelonSoftDeletes {
      *
      * @return void
      */
-    public static function bootSoftDeletes () {
+    public static function bootMelonSoftDeletes () {
         static::addGlobalScope(new MelonSoftDeletingScope);
     }
 
