@@ -1,6 +1,6 @@
 <?php
 
-namespace Meloncut\LaravelUtils\tool;
+namespace Meloncut\LaravelUtils\Functions;
 
 class Converter {
     /**
